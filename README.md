@@ -3,7 +3,7 @@
 
 <p align="center"><img align="center" src=".github/banner.svg" width="900px"></img></p>
 
-<h2 align="center">Languages / Tools</h3>
+<h2 align="center">Languages / Tools</h2>
 
 <p align="center">
     <img align="center" src=".github/Python.svg" width="30px"></img>
