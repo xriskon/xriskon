@@ -1,0 +1,438 @@
+//Heading
+
+@mixin font-heading1-regular {
+  /* Heading 1/Regular */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 105%;
+  /* identical to box height, or 105% */
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+}
+
+@mixin font-heading1-semibold {
+  /* Heading 1/Semibold */
+  font-size: 100px;
+  line-height: 105%;
+  /* identical to box height, or 105% */
+  font-feature-settings: 'pnum' on, 'lnum' on, 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+}
+
+@mixin font-heading2-regular {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 112%;
+  /* identical to box height, or 112% */
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  color: #000000;
+  
+  
+}
+
+@mixin font-heading2-semibold {
+  /* Heading 2/Semibold */
+  font-style: normal;
+  font-weight: 600;
+  font-size:clamp(45px, 6vw, 80px);
+  line-height: 112%;
+  /* identical to box height, or 112% */
+  
+  font-feature-settings: 'pnum' on, 'lnum' on, 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+}
+
+@mixin font-heading3-regular {
+  /* Heading 3/Regular */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 108%;
+  /* identical to box height, or 108% */
+  
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+}
+@mixin font-heading3-medium{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 108%;
+  /* identical to box height, or 108% */
+  font-feature-settings: 'pnum' on, 'lnum' on, 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+}
+@mixin font-heading3-semibold {
+  /* Heading 3/Semibold */
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 75px;
+  line-height: 113%;
+  /* identical to box height, or 113% */
+  
+  letter-spacing: -0.03em;
+  font-feature-settings: 'pnum' on, 'lnum' on, 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+}
+
+@mixin font-heading4-semibold {
+  /* Heading 3/Semibold */
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 122%;
+  /* identical to box height, or 122% */
+  
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+
+}
+
+@mixin font-heading4-medium {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 55px;
+  /* identical to box height, or 122% */
+  
+  font-feature-settings: 'pnum' on, 'lnum' on, 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+}
+
+
+
+@mixin font-heading5-regular {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  /* identical to box height, or 133% */
+  
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+  
+}
+
+@mixin font-heading5-medium {
+  /* Heading 5/Semibold */
+  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  /* identical to box height, or 133% */
+  
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+  
+}
+
+@mixin font-heading6-regular {
+  /* Heading 6/Regular */
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  /* identical to box height, or 140% */
+  
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+
+}
+
+@mixin font-heading6-medium {
+  /* Heading 6/Semibold */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 35px;
+  /* identical to box height, or 140% */
+  
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+  
+}
+
+//Article
+
+@mixin font-article1-regular {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 45px;
+  /* identical to box height, or 129% */
+  
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+  
+  
+}
+
+@mixin font-article1-medium {
+
+  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 45px;
+  /* identical to box height, or 129% */
+  
+  font-feature-settings: 'pnum' on, 'lnum' on, 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+}
+
+@mixin font-article2-regular {
+  /* Article 2/Regular */
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+  
+}
+
+@mixin font-article2-medium {
+  /* Article 2/Semibold */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+}
+
+@mixin font-article3-regular {
+  /* Article 3/Regular */
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+}
+
+@mixin font-article3-medium {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+
+}
+
+//paragraph
+
+@mixin font-paragraph1-book {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height, or 125% */
+  
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+}
+
+@mixin font-paragraph1-medium {
+  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height, or 125% */
+  
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+}
+
+@mixin font-paragraph2-book {
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+
+}
+
+@mixin font-paragraph2-medium {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+}
+
+@mixin font-paragraph3-book {
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  /* identical to box height, or 156% */
+  
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+}
+
+@mixin font-paragraph3-medium {
+  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  /* identical to box height, or 156% */
+  
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+}
+
+//caption
+
+@mixin font-caption1-regular {
+
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+    
+    font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+    
+    color: #000000;
+  
+}
+
+@mixin font-caption1-medium {
+  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height, or 133% */
+  
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+}
+
+@mixin font-caption2-regular {
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height, or 115% */
+  
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+
+}
+
+@mixin font-caption2-medium {
+  /* Caption 2/Semibold */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height, or 115% */
+  
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+  
+}
+
+@mixin font-caption3-regular {
+  
+ 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+  
+}
+
+@mixin font-caption3-medium {
+  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on, 'ss19' on;
+  
+  color: #000000;
+
+}
+
+h1, .h1 {
+
+@include font-heading1-regular;
+
+}
+
+h2, .h2 {
+@include font-heading2-regular;
+}
+
+p {
+  @include font-paragraph1-book;
+}
+
+
+.b {
+  font-weight: 700;
+}
